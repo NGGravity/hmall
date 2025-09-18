@@ -20,6 +20,9 @@ mybatis-plus:
     db-config:
       update-strategy: not_null
       id-type: auto
+feign:
+  okhttp:
+    enabled: true
 logging:
   level:
     com.hmall: debug
