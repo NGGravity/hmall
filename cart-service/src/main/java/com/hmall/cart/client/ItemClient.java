@@ -12,5 +12,5 @@ import java.util.List;
 public interface ItemClient {
 
     @GetMapping("/items") // 请求方式和请求路径
-    List<ItemDTO> queryItemByIds(@RequestParam("ids") Collection<Integer> ids); // 返回类型和请求参数
+    List<ItemDTO> queryItemByIds(@RequestParam("ids") Collection<Long> ids); // 返回类型和请求参数
 }
